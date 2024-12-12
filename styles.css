@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+  background-color: #131313;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Comic Container Styles */
+.comic {
+  background-color: #cecece;
+  border: 3px solid #ffe7b9;
+  padding: 15px;
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Ensures the content is stacked vertically */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comic-title {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.more-button {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid black;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.more-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Button Layout Styles */
+.comic-buttons-container {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.comic-button {
+  display: inline-block;
+  background-color: #ffe7b9;
+  color: black;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.4em;
+  border: 2px solid #ffe7b9;
+  border-radius: 5px;
+  text-decoration: none;
+  width: calc(50% - 40px); /* For 2 buttons per row */
+}
+
+.comic-button:hover {
+  background-color: #f0e1b7;
+}
+
+.other-comic-button-container {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Ensure the buttons are stacked vertically */
+  align-items: center;
+}
+
+.other-comics-heading {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 20px; /* Space between the title and the buttons */
+}
+
+.other-comic-button {
+  display: inline-block;
+  background-color: #ffe7b9;
+  color: black;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.4em;
+  border: 2px solid #ffe7b9;
+  border-radius: 5px;
+  text-decoration: none;
+  width: calc(28% - 40px); /* For 2 buttons per row */
+}
+
+.other-comic-button:hover {
+  background-color: #f0e1b7;
+}
+
+/* Ensure comics container has a max-width and does not stretch to the edge */
+.comics-container {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  max-width: 1000px; /* Max width for large screens */
+}
+
+/* Comic Image Styles */
+.comic img {
+  max-width: 100%; /* Ensures the image does not exceed the container width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .comic-button {
+    width: calc(100% - 40px); /* Full width on mobile */
+    margin: 10px;
+  }
+
+  .other-comic-button {
+    width: calc(50% - 40px); /* Full width on mobile */
+    margin: 10px;
+  }
+
+  /* Ensure comics container does not stretch to the full width on mobile */
+  .comics-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .comics-container {
+    max-width: 1000px;
+  }
+
+  .comic-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
