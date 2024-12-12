@@ -105,12 +105,12 @@ const comics = [
 // New Buttons: Separate array for the new comic buttons
 const otherComics = [
   {
-    title: "xkcd",
-    buttonLink: "https://xkcd.com/",
-  },
-  {
     title: "Cyanide and Happiness",
     buttonLink: "https://explosm.net/",
+  },
+  {
+    title: "xkcd",
+    buttonLink: "https://xkcd.com/",
   },
   {
     title: "The Oatmeal",
