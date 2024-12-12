@@ -21,18 +21,13 @@ const comics = [
     moreLink: "https://www.gocomics.com/random/9to5",
   },
   {
-    title: "2 Cows and a Chicken",
-    rssUrl: "https://www.comicsrss.com/rss/2cowsandachicken.rss",
-    moreLink: "https://www.gocomics.com",
-  },
-  {
     title: "Bizzaro",
     rssUrl: "https://www.comicsrss.com/rss/bizarro.rss",
     moreLink: "https://comicskingdom.com/comics?sortby=rand",
   },
   {
     title: "Mother Goose & Grimm",
-    rssUrl: "https://www.comicsrss.com/rss/mothergooseandgrimm.rss",
+    rssUrl: "https://www.comicsrss.com/rss/mother-goose-and-grimm.rss",
     moreLink: "https://www.gocomics.com/random/mother-goose-and-grimm",
   },
   {
@@ -69,8 +64,7 @@ const otherComics = [
   {
     title: "The Awkward Yetti",
     buttonLink: "https://theawkwardyeti.com/comic-archive/",
-  },
-  
+  }, 
 ];
 
 const container = document.getElementById("comics-container");
