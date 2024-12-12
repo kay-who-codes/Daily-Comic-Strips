@@ -6,9 +6,9 @@ const comics = [
     moreLink: "https://www.gocomics.com/random/garfield",
   },
   {
-    title: "B.C.",
-    rssUrl: "https://www.comicsrss.com/rss/bc.rss",
-    moreLink: "https://www.gocomics.com/random/bc",
+    title: "Junk Drawer",
+    rssUrl: "https://www.comicsrss.com/rss/junk-drawer.rss",
+    moreLink: "https://www.gocomics.com/random/junk-drawer",
   },
   {
     title: "1 And Done",
@@ -21,9 +21,19 @@ const comics = [
     moreLink: "https://www.gocomics.com/random/9to5",
   },
   {
+    title: "Beetle Moses",
+    rssUrl: "https://www.comicsrss.com/rss/beetle-moses.rss",
+    moreLink: "https://wp.comicskingdom.com/beetle-moses",
+  },
+  {
     title: "Bizzaro",
     rssUrl: "https://www.comicsrss.com/rss/bizarro.rss",
     moreLink: "https://comicskingdom.com/comics?sortby=rand",
+  },
+  {
+    title: "Life on Earth",
+    rssUrl: "https://www.comicsrss.com/rss/life-on-earth.rss",
+    moreLink: "https://www.gocomics.com/random/life-on-earth/",
   },
   {
     title: "Mother Goose & Grimm",
@@ -44,6 +54,51 @@ const comics = [
     title: "Foolish Mortals",
     rssUrl: "https://www.comicsrss.com/rss/foolish-mortals.rss",
     moreLink: "https://www.gocomics.com/random/foolish-mortals",
+  },
+  {
+    title: "In the Bleachers",
+    rssUrl: "https://www.comicsrss.com/rss/inthebleachers.rss",
+    moreLink: "https://www.gocomics.com/random/inthebleachers",
+  },
+  {
+    title: "Savage Chickens",
+    rssUrl: "https://www.comicsrss.com/rss/savage-chickens.rss",
+    moreLink: "https://www.gocomics.com/random/savage-chickens/",
+  },
+  {
+    title: "Six Chix",
+    rssUrl: "https://www.comicsrss.com/rss/Six-Chix.rss",
+    moreLink: "https://www.gocomics.com/random/Six-Chix",
+  },
+  {
+    title: "That is Priceless",
+    rssUrl: "https://www.comicsrss.com/rss/that-is-priceless.rss",
+    moreLink: "https://www.gocomics.com/random/that-is-priceless",
+  },
+  {
+    title: "WuMo",
+    rssUrl: "https://www.comicsrss.com/rss/wumo.rss",
+    moreLink: "https://www.gocomics.com/random/wumo",
+  },
+  {
+    title: "Working It Out",
+    rssUrl: "https://www.comicsrss.com/rss/workingitout.rss",
+    moreLink: "https://www.gocomics.com/random/workingitout",
+  },
+  {
+    title: "Ziggy",
+    rssUrl: "https://www.comicsrss.com/rss/ziggy.rss",
+    moreLink: "https://www.gocomics.com/random/ziggy",
+  },
+  {
+    title: "B.C.",
+    rssUrl: "https://www.comicsrss.com/rss/bc.rss",
+    moreLink: "https://www.gocomics.com/random/bc",
+  },
+  {
+    title: "The Argyle Sweater",
+    rssUrl: "https://www.comicsrss.com/rss/theargylesweater.rss",
+    moreLink: "https://www.gocomics.com/random/theargylesweater",
   },
 ];
 
