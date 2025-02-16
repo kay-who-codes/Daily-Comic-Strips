@@ -2,6 +2,8 @@
 
 A free browser-based comic viewer app. Replace my comic selection with your own.
 
+[![App Image](Non-App/App%20Image.png)](https://kay-who-codes.github.io/daily-comic-strips)
+
 ## Usage
 
 The Daily Comic Strips app allows you to view a selection of comic strips directly in your browser. The app is built using JavaScript, CSS, and HTML, and it is easy to customize with your own selection of comics.
