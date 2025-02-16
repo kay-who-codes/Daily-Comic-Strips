@@ -2,7 +2,7 @@
 
 A free browser-based comic viewer app. Replace my comic selection with your own.
 
-[![App Image](Non-App/App%20Image.png)](https://kay-who-codes.github.io/daily-comic-strips)
+[![App Image](Non-App/App%20Image.png)](https://kay-who-codes.github.io/Daily-Comic-Strips/)
 
 ## Usage
 
